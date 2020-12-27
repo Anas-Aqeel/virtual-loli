@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/b5131f782b.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+  </head>
+  <body id="body">
+<button onclick="night()" id="night"><i class="fas fa-cloud-moon"></i></button>
+<button onclick="light()" id="light" class="hidden"><i class="fas fa-cloud-sun-rain"></i></button>
+    <div class="main">
+  <div id="fdiv" ></div>
+  <div id="sdiv"></div>
+  <div id="tdiv"></div>
+  
+</div>
+<div class="image">
+<div class="stick"></div>
+</div>
+ 
+  <fieldset class="set">
+    <legend>color editor</legend>
+    <input value="#00FF08" id="first"  type="color">
+    <input value="#006EFF" id="second"  type="color">
+    <input value="#E40101" id="third"  type="color">
+    <button onclick="picker()">Set color</button>
+  </fieldset>
+  
+</body>
+  <script src="app.js"></script>
+</html>
